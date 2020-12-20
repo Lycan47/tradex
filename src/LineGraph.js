@@ -48,7 +48,7 @@ const options = {
   },
 };
 
-function LineGraph({ casesType }) {
+function LineGraph() {
   const [data, setData] = useState({});
 
   useEffect(() => {
